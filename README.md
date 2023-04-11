@@ -1,6 +1,32 @@
-
-# Haikus for Codespaces
-
-This is a quick node project template for demoing Codespaces. It is based on the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
-
-Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart) for a tour of using Codespaces with this repo.
+<! DOCTYPE html> 
+<html>
+<head>
+    <meta charset= "utf-8" />
+    <title></title>
+    <style type= "text/css">
+    /*定义所有div样式*/
+        div
+        {
+            width:100px;
+            height: 30px;
+        }
+        /*定义单独div样式*/
+        #div1
+        {
+            border-width: 1px;
+            border-style:dashed;
+            border-color:red;
+        }
+        #div2
+        {
+            border-width:1px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style> 
+</head>
+<body> 
+    <div id= "div1"></div>
+    <div id= "div2"></div>
+ </body> 
+ </html>
